@@ -1,0 +1,249 @@
+/* Cart Page */
+#cart{
+
+    overflow-x: auto;
+}
+
+#cart table{
+    width: 100%;
+    border-collapse: collapse;
+    /* table-layout:fixed; */
+    white-space: nowrap;
+    /* justify-content: center; */
+
+}
+
+#cart table img{
+    width:200px;
+}
+
+#cart table td:nth-child(1){
+    width: 100px;
+    text-align: centre;
+}
+
+#cart table td:nth-child(2){
+    width: 150px;
+    text-align: centre;
+}
+
+#cart table td:nth-child(3){
+    width: 250px;
+    text-align: centre;
+}
+
+#cart table td:nth-child(4),
+#cart table td:nth-child(5),
+#cart table td:nth-child(6){
+    width: 150px;
+    text-align: centre;
+}
+
+#cart table td:nth-child(5) input{
+    width: 50px;
+    padding: 10px 5px 10px 15px ;
+}
+
+#cart table head{
+    border: 10px solid #040404;
+    border-left: none;
+    border-right: none;
+   
+}
+
+#cart table thead td{
+    font-weight:700;
+    text-transform: uppercase;
+   background-color:  #a5bddb85;
+    font-size: 18px;
+    padding: 18px 0;
+}
+#cart table tbody tr td{
+    padding-top: 15px;
+
+}
+
+#cart table tbody td{
+    font-size: 17px;
+}
+
+
+
+#discount{
+    width: 30%;
+    margin-bottom:30x;
+}
+
+#discount h3,
+#subtotal h3,
+#checkout h3
+{
+    padding-bottom: 15px;
+}
+
+#discount input{
+    padding: 10px 20px;
+    outline: none;
+    width: 50%;
+    margin-right: 10px;
+    border: 1px solid #000000;
+}
+
+#discount button,
+#subtotal button,
+#checkout button,
+#payment button{
+    background-color: #a5bddb85;
+    color: #000;
+    padding: 10px 40px;
+}
+
+#subtotal{
+    width: 40%;
+    margin-bottom: 30px;
+    border:1px solid #fff;
+    padding: 3px;
+}
+
+#subtotal table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#subtotal table td{
+   width: 50%;
+   border: 1px solid #000000;
+   padding: 10px;
+   font-size: 18px; 
+} 
+
+.payment-form{
+    margin-bottom: 40px;
+}
+
+.payment-method{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.payment-method .method{
+    border: 1px solid var(--quick-silver);
+    border-radius: var(--radius);
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.payment-method .selected{
+    border-color: var(--azure);
+}
+
+.payment-method .method ion-icon{ 
+    font-size: 20px;
+}
+
+.payment-method .method .checkmark{
+    margin-left: auto;
+    color: var(--quick-silver);
+}
+
+.payment-method .method .fill{
+    color: var(--azure);
+}
+
+.label-default{
+    padding-left: 5px;
+    margin-bottom: 5px;
+    font-size: var(--fs-14);
+    color: var(--spanish-gray);
+
+}
+
+.input-default{
+    background: var(--platinum);
+    border-radius: var(--radius);
+    color: var(--davys-gray);
+}
+
+.payment-form input{
+    padding: 10px 15px;
+    font-size: var(--fs-18);
+    font-weight: var(--fs-5);
+}
+
+.cardholder-name,
+.card-number{
+    margin-bottom: 20px;
+}
+
+.card-number input,
+.cvv input{
+    letter-spacing: 3px;
+}
+
+.input-flex{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.input-flex .expire-date,
+.input-flex .cvv{
+    width: 50%;
+}
+
+.expire-date .input-flex{
+    color: var(--spanish-gray);
+    gap: 13px;
+}
+
+.expire-date .input-flex input{
+    text-align: center;
+}
+
+.btn{
+    border-radius: var(--radius);
+}
+
+.btn:active{
+    transform: scale(0.99);
+}
+
+.btn:focus{
+    color: var(--white);
+    background: var(--azure);
+    outline: 2px solid var(--azure);
+    outline-offset: 2px;
+}
+
+.btn-primary{
+    background: var(--white);
+    font-weight: var(--fw-5);
+    color: var(--white);
+    padding: 13px 45px;
+}
+
+.btn-primary b{
+    margin-right: 10px;
+}
+
+ion-icon, span{
+    display: inline-block;
+    }
+
+
+    #cart-add{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /* .img{
+        width:200px;
+    }
+     */
